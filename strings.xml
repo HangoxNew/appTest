@@ -1,0 +1,50 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank You!</string>
+
+    <!--
+        Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+        user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Name: <xliff:g id="nameForSummary" example="Amy">%s</xliff:g></string>
+
+    <!--
+        Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+        user's name. [CHAR LIMIT=NONE]
+    -->
+
+    <!-- Topping whipped cream for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_whippedCream">Add whipped cream?</string>
+
+    <!-- Topping chocolate for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_chocolate">Add chocolate?</string>
+
+    <!-- Quantity for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_quantity">Quantity:</string>
+
+    <!-- Total (price) for order summary. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_total">Total:</string>
+
+    <!-- Hint message in input field. [CHAR LIMIT=20] -->
+    <string name="hint_editText">Your Name</string>
+
+    <!-- Quantity text for the cups of coffee. [CHAR LIMIT=20] -->
+    <string name="quantity_text">Quantity</string>
+
+    <!-- Text in Button for order. [CHAR LIMIT=20] -->
+    <string name="order_button">Order</string>
+
+    <!-- Text for checkbox whipped cream. [CHAR LIMIT=20] -->
+    <string name="whippedCream_checkBox">Whipped Cream</string>
+
+    <!-- Text for checkbox chocolate. [CHAR LIMIT=20] -->
+    <string name="chocolate_checkBox">Chocolate</string>
+
+    <!-- Subject for the Intent EMail -->
+    <string name="email_subject">JustJava order to <xliff:g name="nameForSubject" example="Amy">%s</xliff:g></string>
+</resources>
